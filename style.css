@@ -1,0 +1,86 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6;
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+    background-size: 800px auto;
+}
+header {
+    background: #2e3b42;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #464f54;
+}
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background: #2e3b42;
+}
+.container {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3em; /* Add bottom margin to avoid overlap with footer */
+    overflow: hidden;/* Ensure contents are contained within the container */
+}
+h1, h2, h3 {
+    color: #333;
+}
+.skills, .experience, .hobbies, .blog {
+    margin-bottom: 2em;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em; /* Add margin-bottom to avoid overlap */
+}
+.about-me img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.blog {
+    margin-top: 2em;/* Add margin-top to create space above the blog section */
+}
+.blog-post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.blog-post:last-child {
+    border-bottom: none;
+}
+.blog-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.blog-images img {
+    width: calc(33% - 10px);
+    height: auto;
+    border-radius: 10px;
+}
+footer {
+    background: #2e3b42;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
